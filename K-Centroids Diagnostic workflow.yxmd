@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED DATASET.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PREPARED DATASET.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="5" source="Summarize: GroupBy - Store" type="String" />
+            <Field name="Year" source="Summarize: GroupBy - Year" type="Int16" />
+            <Field name="Sum_Dry_Grocery" source="Summarize: Sum - Dry_Grocery" type="Double" />
+            <Field name="Sum_Dairy" source="Summarize: Sum - Dairy" type="Double" />
+            <Field name="Sum_Frozen_Food" source="Summarize: Sum - Frozen_Food" type="Double" />
+            <Field name="Sum_Meat" source="Summarize: Sum - Meat" type="Double" />
+            <Field name="Sum_Produce" source="Summarize: Sum - Produce" type="Double" />
+            <Field name="Sum_Floral" source="Summarize: Sum - Floral" type="Double" />
+            <Field name="Sum_Deli" source="Summarize: Sum - Deli" type="Double" />
+            <Field name="Sum_Bakery" source="Summarize: Sum - Bakery" type="Double" />
+            <Field name="Sum_General_Merchandise" source="Summarize: Sum - General_Merchandise" type="Double" />
+            <Field name="Total_sales_per_store" source="Formula: [Sum_Dry_Grocery]+[Sum_Dairy]+[Sum_Frozen_Food]+[Sum_Meat]+[Sum_Produce]+[Sum_Floral]+[Sum_Deli]+[Sum_Bakery]+[Sum_General_Merchandise]" type="Double" />
+            <Field name="Percent_sales_Dry_Grocery" source="Formula: [Sum_Dry_Grocery]*100/[Total_sales_per_store]" type="Double" />
+            <Field name="Percent_sales_Diary" source="Formula: [Sum_Dairy]*100/[Total_sales_per_store]" type="Double" />
+            <Field name="Percent_sales_Frozen_Food" source="Formula: [Sum_Frozen_Food]*100/[Total_sales_per_store]" type="Double" />
+            <Field name="Percent_sales_Meat" source="Formula: [Sum_Meat]*100/[Total_sales_per_store]" type="Double" />
+            <Field name="Percent_sales_Produce" source="Formula: [Sum_Produce]*100/[Total_sales_per_store]" type="Double" />
+            <Field name="Percent_sales_Floral" source="Formula: [Sum_Floral]*100/[Total_sales_per_store]" type="Double" />
+            <Field name="Percent_sales_Deli" source="Formula: [Sum_Deli]*100/[Total_sales_per_store]" type="Double" />
+            <Field name="Percent_sales_Bakery" source="Formula: [Sum_Bakery]*100/[Total_sales_per_store]" type="Double" />
+            <Field name="Percent_sales_General_Merchandise" source="Formula: [Sum_General_Merchandise]*100/[Total_sales_per_store]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="162" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="the fields">Percent_sales_Dry_Grocery + Percent_sales_Diary + Percent_sales_Frozen_Food + Percent_sales_Meat + Percent_sales_Produce + Percent_sales_Floral + Percent_sales_Deli + Percent_sales_Bakery + Percent_sales_General_Merchandise</Value>
+          <Value name="standardize">True</Value>
+          <Value name="z score">True</Value>
+          <Value name="unit interval">False</Value>
+          <Value name="k-means">True</Value>
+          <Value name="k-medians">False</Value>
+          <Value name="neural gas">False</Value>
+          <Value name="min clus">2</Value>
+          <Value name="max clus">6</Value>
+          <Value name="bootstrap rep">50</Value>
+          <Value name="num seeds">3</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\K-Centroids_Diagnostics.yxmc" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="258" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\user\AppData\Local\Temp\Engine_6496_5c7a662390764865b10b177b173e19b6_\Engine_9960_0bdb7b24e8d8432fb150f8d33ad7ee64_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Reports" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CLUSTERING workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="bfa9c38a-fd86-4aef-bdfb-e1af10532ac8" />
+      <Telemetry>
+        <PreviousWorkflowId value="605be066-9ee8-4b64-8b8a-ed8c8d14f6eb" />
+        <OriginWorkflowId value="605be066-9ee8-4b64-8b8a-ed8c8d14f6eb" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

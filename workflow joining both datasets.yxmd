@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PREPARED dataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Year" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Sum_Dry_Grocery" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Sum_Dairy" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Sum_Frozen_Food" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Sum_Meat" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Sum_Produce" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Sum_Floral" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Sum_Deli" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Sum_Bakery" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Sum_General_Merchandise" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Total_sales_per_store" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Percent_sales_Dry_Grocery" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Percent_sales_Diary" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Percent_sales_Frozen_Food" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Percent_sales_Meat" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Percent_sales_Produce" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Percent_sales_Floral" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Percent_sales_Deli" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Percent_sales_Bakery" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+            <Field name="Percent_sales_General_Merchandise" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\PREPARED dataset.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\CLUSTERID dataset.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CLUSTERID dataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\CLUSTERID dataset.csv" type="V_String" />
+            <Field name="Cluster" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\CLUSTERID dataset.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="150" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Store" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Store" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Store" selected="False" rename="Right_Store" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="246" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\GCA~1\AppData\Local\Temp\Engine_6632_20ef00c7c0b849c2bbafe38231ba931c_\Engine_5912_41e6cbd774ec4e419a84de20401947fd_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="246" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\prepared plus clusterID dataset.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>prepared plus clusterID dataset.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>workflow joining both datasets</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

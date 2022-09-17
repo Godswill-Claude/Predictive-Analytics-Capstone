@@ -1,0 +1,489 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\forecasts for NEW STORES.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>forecasts for NEW STORES.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Period" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\forecasts for NEW STORES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Sub_Period" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\forecasts for NEW STORES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Sum_forecast" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\forecasts for NEW STORES.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\forecasts for EXISTING STORES.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>forecasts for EXISTING STORES.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Period" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\forecasts for EXISTING STORES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Sub_Period" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\forecasts for EXISTING STORES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="forecast" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\forecasts for EXISTING STORES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="forecast_high_95" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\forecasts for EXISTING STORES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="forecast_high_80" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\forecasts for EXISTING STORES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="forecast_low_80" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\forecasts for EXISTING STORES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="forecast_low_95" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\forecasts for EXISTING STORES.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\storesalesdata.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>storesalesdata.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\storesalesdata.csv" type="V_String" />
+            <Field name="Day" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\storesalesdata.csv" type="V_String" />
+            <Field name="Month" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\storesalesdata.csv" type="V_String" />
+            <Field name="Year" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\storesalesdata.csv" type="V_String" />
+            <Field name="Dry_Grocery" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\storesalesdata.csv" type="V_String" />
+            <Field name="Dairy" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\storesalesdata.csv" type="V_String" />
+            <Field name="Frozen_Food" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\storesalesdata.csv" type="V_String" />
+            <Field name="Meat" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\storesalesdata.csv" type="V_String" />
+            <Field name="Produce" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\storesalesdata.csv" type="V_String" />
+            <Field name="Floral" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\storesalesdata.csv" type="V_String" />
+            <Field name="Deli" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\storesalesdata.csv" type="V_String" />
+            <Field name="Bakery" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\storesalesdata.csv" type="V_String" />
+            <Field name="General_Merchandise" size="254" source="File: F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\storesalesdata.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="222" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Year" action="GroupBy" rename="Year" />
+            <SummarizeField field="Month" action="GroupBy" rename="Month" />
+            <SummarizeField field="Produce" action="Sum" rename="Sum_Produce" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="450" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\GCA~1\AppData\Local\Temp\Engine_1224_7e9d4406b4214049baddf10c6222fe05_\Engine_8796_400a16b46ff345249f2c17a68d889544_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Period" selected="True" rename="Year" type="String" size="19" />
+            <SelectField field="Sub_Period" selected="True" rename="Month" type="String" size="19" />
+            <SelectField field="Sum_forecast" selected="True" rename="Sum_Produce" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Period" selected="True" rename="Year" type="String" size="19" />
+            <SelectField field="Sub_Period" selected="True" rename="Month" type="String" size="19" />
+            <SelectField field="forecast" selected="True" rename="Sum_Produce" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="294" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;NewStore_forecast&quot;" field="Type" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Type = "NewStore_forecast"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="546" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Month]+&quot;-&quot;+[Year]" field="Date" size="64" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Date = [Month]+"-"+[Year]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="294" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;ExistingStore_forecast&quot;" field="Type" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Type = "ExistingStore_forecast"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="318" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;ExistingStore_historical&quot;" field="Type" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Type = "ExistingStore_historical"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="126" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Store" selected="True" />
+            <SelectField field="Day" selected="True" type="String" size="254" />
+            <SelectField field="Month" selected="True" type="String" size="254" />
+            <SelectField field="Year" selected="True" type="String" size="254" />
+            <SelectField field="Dry_Grocery" selected="True" />
+            <SelectField field="Dairy" selected="True" />
+            <SelectField field="Frozen_Food" selected="True" />
+            <SelectField field="Meat" selected="True" />
+            <SelectField field="Produce" selected="True" />
+            <SelectField field="Floral" selected="True" />
+            <SelectField field="Deli" selected="True" />
+            <SelectField field="Bakery" selected="True" />
+            <SelectField field="General_Merchandise" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="642" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Sum_Produce" selected="True" />
+            <SelectField field="Type" selected="True" />
+            <SelectField field="Date" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="726" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">F:\Data Science\Predictive Analytics for Business NANODEGREE\CORE CURRICULUM\PART 7 - SEGMENTATION AND CLUSTERING\LESSON 8 - PROJECT - COMBINING PREDICTIVE TECHNIQUES\ALL STORES Sum produce stacked dataset.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ALL STORES Sum produce stacked dataset.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>workflow ALL STORES FORECAST stacked dataset</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
